@@ -146,21 +146,51 @@ h6 {
 }
 
 /* =====main css===== */
-
-body {
-  height: 100vh;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .container {
-  margin: 2rem;
-  padding: 0.5rem;
-  border: 2px solid hsl(0, 100%, 50%);
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      hsla(0, 100%, 50%, 0.7),
+      hsla(0, 100%, 50%, 0)
+    ),
+    url("/assets/images/bg.jpg");
+  background-size: cover;
 }
 
-.bg {
-  background-image: url(/assets/images/bg.png);
-  background-repeat: no-repeat;
-  background: fixed;
-  height: fit-content;
-  width: fit-content;
+.column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid hsl(0, 0%, 100%);
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.column-left {
+  background-color: hsla(0, 100%, 50%, 0.3);
+}
+
+.column-right {
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+/* =====Countdown===== */
+.countdown {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+/* =====Timer===== */
+#timer {
+  font-size: 2em;
 }
