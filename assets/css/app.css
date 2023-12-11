@@ -204,12 +204,19 @@ body {
 
 /* =====Timer===== */
 #timer {
+  cursor: url("⌛");
   font-size: 2em;
+  transition: all 1s ease;
+}
+
+#timer:hover {
+  font-size: 3em;
+  text-transform: lowercase;
 }
 
 /* =====Footer===== */
 .footer {
-  transform: translateY(25%);
+  transform: translate(-50%, 25%);
 }
 
 .footer p {
@@ -220,4 +227,13 @@ body {
 
 .footer p a {
   color: hsl(0, 0%, 100%);
+  transition: all 1s ease;
+}
+
+.footer p {
+  transition: all 1s ease;
+}
+
+.footer p:hover {
+  transform: scale(2px, 2px);
 }
