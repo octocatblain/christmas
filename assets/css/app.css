@@ -204,7 +204,7 @@ body {
 
 /* =====Timer===== */
 #timer {
-  cursor: U+231B;
+  cursor: pointer;
   font-size: 2em;
   transition: all 1s ease;
 }
