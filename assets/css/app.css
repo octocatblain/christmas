@@ -204,7 +204,7 @@ body {
 
 /* =====Timer===== */
 #timer {
-  cursor: url("⌛");
+  cursor: U+231B;
   font-size: 2em;
   transition: all 1s ease;
 }
