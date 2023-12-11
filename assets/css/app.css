@@ -157,6 +157,10 @@ html {
   overflow: hidden;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   height: 100vh;
@@ -201,4 +205,19 @@ html {
 /* =====Timer===== */
 #timer {
   font-size: 2em;
+}
+
+/* =====Footer===== */
+.footer {
+  transform: translateY(35%);
+}
+
+.footer p {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  writing-mode: vertical-lr;
+}
+
+.footer p a {
+  color: hsl(0, 0%, 100%);
 }
