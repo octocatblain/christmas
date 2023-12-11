@@ -145,6 +145,10 @@ h6 {
   font-family: "Kalnia", serif;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 /* =====main css===== */
 body,
 html {
@@ -165,23 +169,27 @@ html {
   background-size: cover;
 }
 
+.row {
+  border: 2px solid hsl(0, 100%, 50%);
+  border-radius: 5px;
+  margin: 2rem;
+  flex: content;
+  display: flex;
+  justify-content: center;
+}
+
 .column {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid hsl(0, 0%, 100%);
-  margin: 20px;
+  margin: 2rem;
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .column-left {
-  background-color: hsla(0, 100%, 50%, 0.3);
-}
-
-.column-right {
-  background-color: hsla(0, 0%, 100%, 0.9);
+  background-color: transparent;
 }
 
 /* =====Countdown===== */
