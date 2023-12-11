@@ -53,32 +53,35 @@ function updateCountdown() {
 1. Fork the Repository:
 
 Fork the repository to your own GitHub account by clicking the "Fork" button at the top of this page.
-Clone the Repository:
+
+2. Clone the Repository:
 
 Clone the forked repository to your local machine using the following command:
 `git clone https://github.com/octocatblain/new-years-countdown.git`
 
-2. Create a New Branch:
+3. Create a New Branch:
 
 Create a new branch for your contribution using a descriptive branch name.
 css: `git checkout -b <your-feature-branch>`
 
-3. Make Changes:
+4. Make Changes:
 
 Implement your changes or add new features.
 
-3. Test Changes:
+5. Test Changes:
 
-Ensure that your changes work as intended and do not introduce any errors. 4. Commit Changes:
+Ensure that your changes work as intended and do not introduce any errors.
+
+6. Commit Changes:
 
 Commit your changes with a clear and concise commit message. `git commit -m "Your descriptive commit message here"`
 
-5. Push Changes:
+7. Push Changes:
 
 Push your changes to your forked repository on GitHub.
 `git push origin your-feature-branch`
 
-6. Create a Pull Request (PR):
+8. Create a Pull Request (PR):
 
 - Go to the original repository on GitHub.
 
@@ -86,7 +89,7 @@ Push your changes to your forked repository on GitHub.
   Provide a meaningful title and description for your pull request.
 - Submit the pull request.
 
-7. Celebrate Your Contribution😇
+9. Celebrate Your Contribution😇
 
 _Once your pull request is accepted and merged, your contribution will be part of something big😆._
 
